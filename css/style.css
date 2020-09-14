@@ -1,17 +1,17 @@
 /* Fuentes */
 @font-face {
     font-family: logoSNK;
-    src: url(../fonts/logoSnk.ttf);
+    src: url(./../fonts/logoSnk.ttf);
 }
 
 @font-face {
     font-family: neoGeo;
-    src: url(../fonts/neogeo.otf);
+    src: url(./../fonts/neogeo.otf);
 }
 
 @font-face {
     font-family: neoGeoX;
-    src: url(../fonts/NEOGEOX.otf);
+    src: url(./../fonts/NEOGEOX.otf);
 }
 
 /* Contenedor e Hijos */
@@ -140,7 +140,7 @@
 /* DIVS Hijos de la parte central */
 
 #screen {
-    background-image: url(../img/img3.jpg);
+    background-image: url(./../img/img3.jpg);
     background-size: cover;
     height: 22.500em;
     width: 36.250em;
