@@ -1,17 +1,17 @@
 /* Fuentes */
 @font-face {
     font-family: logoSNK;
-    src: url(file:///C:/Users/dpita/Programacion/BootcampFSDeveloper/Proyectos/GeeksHubs/ConsolaNEOGEO/fonts/logoSnk.ttf);
+    src: url(file:///C:/Users/dpita/Programacion/Bootcamp%20FSDeveloper/Proyectos/GeeksHubs/Consola%20NEO%20GEO/fonts/logoSnk.ttf);
 }
 
 @font-face {
     font-family: neoGeo;
-    src: url(file:///C:/Users/dpita/Programacion/BootcampFSDeveloper/Proyectos/GeeksHubs/ConsolaNEOGEO/fonts/neogeo.otf);
+    src: url(file:///C:/Users/dpita/Programacion/Bootcamp%20FSDeveloper/Proyectos/GeeksHubs/Consola%20NEO%20GEO/fonts/neogeo.otf);
 }
 
 @font-face {
     font-family: neoGeoX;
-    src: url(file:///C:/Users/dpita/Programacion/BootcampFSDeveloper/Proyectos/GeeksHubs/ConsolaNEOGEO/fonts/NEOGEOX.otf);
+    src: url(file:///C:/Users/dpita/Programacion/Bootcamp%20FSDeveloper/Proyectos/GeeksHubs/Consola%20NEO%20GEO/fonts/NEOGEOX.otf);
 }
 
 /* Contenedor e Hijos */
@@ -140,7 +140,7 @@
 /* DIVS Hijos de la parte central */
 
 #screen {
-    background-image: url(file:///C:/Users/dpita/Programacion/BootcampFSDeveloper/Proyectos/GeeksHubs/ConsolaNEOGEO/img/img3.jpg);
+    background-image: url(file:///C:/Users/dpita/Programacion/Bootcamp%20FSDeveloper/Proyectos/GeeksHubs/Consola%20NEO%20GEO/img/img3.jpg);
     background-size: cover;
     height: 22.500em;
     width: 36.250em;
