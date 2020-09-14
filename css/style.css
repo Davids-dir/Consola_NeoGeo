@@ -1,0 +1,150 @@
+/* Fuentes */
+@font-face {
+    font-family: logoSNK;
+    src: url(/fonts/logoSnk.ttf);
+}
+
+@font-face {
+    font-family: neoGeo;
+    src: url(/fonts/neogeo.otf);
+}
+
+@font-face {
+    font-family: neoGeoX;
+    src: url(/fonts/NEOGEOX.otf);
+}
+
+/* Contenedor e Hijos */
+
+.base {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 27.5em;
+    width: 62.5em;
+    border: solid;
+    border-radius: 3.125em;
+    
+}
+
+#logoSNK {
+    font-family: logoSNK;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: white;
+    background-color: black;
+    height: 1.25em;
+    width: 3.750em;
+    margin-top: 0.5em;
+    margin-left: 1.563em;
+    text-align: center;
+}
+
+.baseIzquierda {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 27.500em;
+    width: 11.875em;
+    border: none;
+    border-radius: 3.125em 0 0 3.125em;
+
+}
+
+.baseCentro {
+    color: white;
+    height: 27.500em;
+    width: 38.75em;
+}
+
+.baseDerecha {
+    background-color: black;
+    color: white;
+    height: 27.500em;
+    width: 11.875em;
+    border: none;
+    border-radius: 0 3.125em 3.125em 0;
+}
+
+/* DIVS Hijos de la parte Izquierda */
+
+#borderExtPad {
+    height: 9.375em;
+    width: 9.375em;
+    margin-top: 0.625em;
+    margin-left: 0.750em;
+    border: 0.625em;
+    border-style: double;
+    background: linear-gradient(to right, silver, grey, white, silver );
+    border-radius: 50%;
+    z-index: 0;
+}
+
+#extPad {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 9.375em;
+    width: 9.375em;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#interiorPad {
+    background-color: grey;
+    height: 7em;
+    width: 7em;
+    margin-top: 1.125em;
+    margin-left: 1.125em;
+    border: 0.625em;
+    border-radius: 50%;
+    background: rgb(230,230,230);
+    background: linear-gradient(140deg, rgba(230,230,230,1) 12%, rgba(25,25,25,1) 30%, rgba(20,20,20,1) 65%, rgba(87,87,87,1) 80%); 
+}
+
+.space {
+    color: black;
+    height: 5em;
+}
+
+#menuButton {
+    font-family: neoGeo;
+    color: burlywood;
+    text-align: end;
+    width: 11em;
+}
+
+.controlButton {
+    background-color: black;
+    height: 1.5em;
+    width: 3em;
+    margin-top: 0.250em;
+    margin-left: 8em;
+    border: 0.250em solid white;
+    border-style: inset;
+    border-radius: 1.250em;
+}
+
+/* DIVS Hijos de la parte central */
+
+#screen {
+    background-image: url(/img/img3.jpg);
+    background-size: cover;
+    height: 22.500em;
+    width: 36.250em;
+    margin-top: 1.250em;
+    margin-left: 1.250em;
+}
+
+#logoNeoGeoX {
+    font-family: neoGeoX;
+    font-size: xx-large;
+    color: burlywood;
+    text-align: center;
+    height: 1.5em;
+    width: 15em;
+    margin-top: 0.50em;
+    margin-left: 2.2em;
+}
