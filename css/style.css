@@ -127,6 +127,14 @@
     border-radius: 1.250em;
 }
 
+#bassLeft {
+    background-color: #656f7b;
+    height: 1em;
+    width: 4em;
+    margin-top: 2em;
+    margin-left: 7.8em;
+    border-radius: 1.250em;
+}
 /* DIVS Hijos de la parte central */
 
 #screen {
@@ -145,6 +153,6 @@
     text-align: center;
     height: 1.5em;
     width: 15em;
-    margin-top: 0.50em;
+    margin-top: 0.40em;
     margin-left: 2.2em;
 }
