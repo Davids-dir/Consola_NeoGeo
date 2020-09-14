@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <audio id="music"><source src="/audio/insertCoin.mp3" type="audio/mpeg">
+        </audio>
     <title>NEO-GEO</title>
 </head>
 <body>
@@ -28,7 +30,9 @@
         <!-- DIV CENTRO-->
         <div class="baseCentro">
             <div id="screen"></div>
-            <div id="logoNeoGeoX">NEO·GEO X</div>
+            <div id="logoNeoGeoX">NEO·GEO X
+                <div id="copyright">©</div>
+            </div>
         </div>
 
         <!-- DIV DER.-->
@@ -57,9 +61,11 @@
             </div>
 
             <div id="startText">START</div>
-            <div id="startButton"></div>
+            <div id="startButton" onclick="play()"  type="button" ></div>
             <div id="bassRight"></div>
         </div>
     </div>
+
+    <script src="/js/features.js" ></script>
 </body>
 </html>

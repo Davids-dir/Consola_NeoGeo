@@ -24,6 +24,7 @@
     width: 62.5em;
     border: solid;
     border-radius: 3.125em;
+    box-shadow: 25px 25px 20px 0px rgba(0,0,0,0.75);
     
 }
 
@@ -156,6 +157,15 @@
     width: 15em;
     margin-top: 0.40em;
     margin-left: 2.2em;
+}
+
+#copyright {
+    font-family: neoGeo;
+    font-size: x-small;
+    height: 1em;
+    width: 1em;
+    margin-left: 29.7em;
+    margin-top: -3.4em;
 }
 
 /* DIVS Hijos de la parte derecha */
