@@ -106,7 +106,7 @@
 
 .space {
     color: black;
-    height: 5em;
+    height: 4em;
 }
 
 #menuButton {
@@ -135,6 +135,7 @@
     margin-left: 7.8em;
     border-radius: 1.250em;
 }
+
 /* DIVS Hijos de la parte central */
 
 #screen {
@@ -155,4 +156,93 @@
     width: 15em;
     margin-top: 0.40em;
     margin-left: 2.2em;
+}
+
+/* DIVS Hijos de la parte derecha */
+
+.actionButton {
+    background: rgb(233,233,233);
+    background: linear-gradient(140deg, rgba(233,233,233,1) 0%, rgba(80,80,80,1) 30%, rgba(0,0,0,1) 43%); 
+    font-family: neoGeo;
+    font-size: 1.5em;
+    color: burlywood;
+    text-align: center;
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 2.5em;
+    border: 0.125em solid grey;
+    border-style: inset;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#D {
+    background: rgb(233,233,233);
+    background: linear-gradient(140deg, rgba(233,233,233,1) 0%, rgba(80,80,80,1) 30%, rgba(0,0,0,1) 43%); 
+    font-family: neoGeo;
+    font-size: 1.5em;
+    color: burlywood;
+    margin-top: 0.2em;
+    border-radius: 50%;
+}
+
+#A {
+    background: rgb(233,233,233);
+    background: linear-gradient(140deg, rgba(233,233,233,1) 0%, rgba(80,80,80,1) 30%, rgba(0,0,0,1) 43%); 
+    font-family: neoGeo;
+    font-size: 1.5em;
+    color: burlywood;
+    margin-top: 0.2em;
+    border-radius: 50%;
+}
+
+#position {
+    display: flex;
+    height: 3.5em;
+    width: 11em;
+    margin-bottom: 0.6em;
+    z-index: 0;
+}
+
+.actionButton2 {
+    flex-direction: row;
+    background: rgb(233,233,233);
+    background: linear-gradient(140deg, rgba(233,233,233,1) 0%, rgba(80,80,80,1) 30%, rgba(0,0,0,1) 43%);
+    font-family: neoGeo;
+    font-size: 1.5em;
+    color: burlywood;
+    text-align: center;
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 0.5em;
+    border: 0.125em solid grey;
+    border-style: inset;
+    border-radius: 50%;
+}
+
+#C {
+    background: rgb(233,233,233);
+    background: linear-gradient(140deg, rgba(233,233,233,1) 0%, rgba(80,80,80,1) 30%, rgba(0,0,0,1) 43%); 
+    font-family: neoGeo;
+    font-size: 1.5em;
+    color: burlywood;
+    margin-top: 0.2em;
+    border-radius: 50%;
+}
+
+#B {
+    background: rgb(233,233,233);
+    background: linear-gradient(140deg, rgba(233,233,233,1) 0%, rgba(80,80,80,1) 30%, rgba(0,0,0,1) 43%); 
+    font-family: neoGeo;
+    font-size: 1.5em;
+    color: burlywood;
+    margin-top: 0.2em;
+    border-radius: 50%;
+}
+
+#centerSpace {
+    color: white;
+    margin-left: 0.3em;
+    height: 3.5em;
+    width: 1em;
 }
